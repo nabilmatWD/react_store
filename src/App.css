@@ -11,7 +11,7 @@
   --mainSpacing: 0.3rem;
 }
 .text-title {
-  font-family: "LatoLight", sans-serif;
+  font-family: "LatoRegular", sans-serif;
   letter-spacing: var(--mainSpacing);
   text-transform: capitalize;
 }
@@ -19,7 +19,25 @@
   color: var(--primaryColor);
 }
 body {
-  font-family: "LatoLight", sans-serif !important;
+  font-family: "LatoRegular", sans-serif !important;
   background: var(--mainGrey) !important;
   color: var(--mainBlack);
+}
+.main-link {
+  background-color: #c69963;
+  color: #fff;
+  border: none;
+  font-family: "LatoWebHairline", sans-serif;
+  font-size: 1.5rem;
+  padding: 0.7rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  transition: all 0.2s;
+}
+.main-link:hover {
+  background-color: #af7937;
+  color: #fff;
+  outline: 4px solid #af7937;
+  outline-offset: 4px;
+  text-decoration: none;
 }
